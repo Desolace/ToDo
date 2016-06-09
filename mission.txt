@@ -10,17 +10,3 @@ Create a Todo application!
         a. all todos are visible
         b. only the completed todos are visible
         c. only the unfinished todos are visible
-
-Official
--------
-Personal
-
-Next tasks:
-- clean code
-- implement html buttons
-- explicit event handler
-
-Feature speculation:
-- Persistent lists
-- Users, privacy, & security
-- Recursive listing, task-groups

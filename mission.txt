@@ -1,0 +1,12 @@
+Create a Todo application!
+- Use jQuery and the things we've learned so far. You may
+  also need to dive into some things we haven't covered;
+  practice your google-fu!
+- Your Todo application should have the following features
+    - Add a Todo to the list
+    - Delete a Todo from the list
+    - Mark a Todo as "completed"
+    - Let the user filter the list so that...
+        a. all todos are visible
+        b. only the completed todos are visible
+        c. only the unfinished todos are visible

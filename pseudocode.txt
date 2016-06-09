@@ -1,0 +1,30 @@
+taskList
+
+tasks:
+  divID
+  divString (contents)
+  completed (boolean)
+
+functions:
+  add
+  remove
+  show(completed===X)
+    {
+    for n in taskList
+      if n.completed===X
+        onVisibility(n)||offVisibility(n)
+      else
+        offVisibility(n)||onVisibility(n)
+    }
+
+
+    completedButton.onCLick
+      show(true)
+
+    incompleteButton.onCLick
+      show(false)
+
+    0=incomplete
+    1=complete
+    2=all
+    switch(taskState){case n: blurb; break; default: blurb;}

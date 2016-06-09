@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <title></title>
+  </head>
+  <body>
+    <div id='top'>
+      <h1>To-Do List</h1>
+
+      <div id="buttonbar">
+        <span class="button" onclick="createTask()">Add Task</span>
+        <!--<span class="button" onclick="deleteTask(0)">Delete Task</span>-->
+        <span class="button" onclick="filterTask('complete')">Complete</span>
+        <span class="button" onclick="filterTask('incomplete')">Incomplete</span>
+        <span class="button" onclick="filterTask('all')">All</span>
+      </div>
+    </div>
+
+    <ul id="tasklist">
+        <!--<li class="taskline">
+        <span class="taskbox" onclick="updateTask">&#x274C;</span>
+        <span class="task">Task 1</span>
+      </li>
+      <li class="taskline">
+        <span class="taskbox" onclick=""></span>
+        <span class="task">Task 2</span>
+        <span class="delete" onclick="deleteTask(N)"></span>
+      </li>
+    <!---->
+    </ul>
+    <script src='todo.js'></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  </body>
+</html>

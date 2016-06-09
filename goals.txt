@@ -1,0 +1,9 @@
+Next tasks:
+- clean code
+- implement html buttons
+- explicit event handler
+
+Feature speculation:
+- Persistent lists
+- Users, privacy, & security
+- Recursive listing, task-groups
